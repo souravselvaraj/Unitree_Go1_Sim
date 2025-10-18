@@ -1,0 +1,271 @@
+robot1:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - FR_hip_joint
+        - FR_thigh_joint
+        - FR_calf_joint
+        - FL_hip_joint
+        - FL_thigh_joint
+        - FL_calf_joint
+        - RR_hip_joint
+        - RR_thigh_joint
+        - RR_calf_joint
+        - RL_hip_joint
+        - RL_thigh_joint
+        - RL_calf_joint
+
+robot2:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - FR_hip_joint
+        - FR_thigh_joint
+        - FR_calf_joint
+        - FL_hip_joint
+        - FL_thigh_joint
+        - FL_calf_joint
+        - RR_hip_joint
+        - RR_thigh_joint
+        - RR_calf_joint
+        - RL_hip_joint
+        - RL_thigh_joint
+        - RL_calf_joint
+
+robot3:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot3_FR_hip_joint
+        - robot3_FR_thigh_joint
+        - robot3_FR_calf_joint
+        - robot3_FL_hip_joint
+        - robot3_FL_thigh_joint
+        - robot3_FL_calf_joint
+        - robot3_RR_hip_joint
+        - robot3_RR_thigh_joint
+        - robot3_RR_calf_joint
+        - robot3_RL_hip_joint
+        - robot3_RL_thigh_joint
+        - robot3_RL_calf_joint
+
+robot4:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot4_FR_hip_joint
+        - robot4_FR_thigh_joint
+        - robot4_FR_calf_joint
+        - robot4_FL_hip_joint
+        - robot4_FL_thigh_joint
+        - robot4_FL_calf_joint
+        - robot4_RR_hip_joint
+        - robot4_RR_thigh_joint
+        - robot4_RR_calf_joint
+        - robot4_RL_hip_joint
+        - robot4_RL_thigh_joint
+        - robot4_RL_calf_joint
+
+robot5:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot5_FR_hip_joint
+        - robot5_FR_thigh_joint
+        - robot5_FR_calf_joint
+        - robot5_FL_hip_joint
+        - robot5_FL_thigh_joint
+        - robot5_FL_calf_joint
+        - robot5_RR_hip_joint
+        - robot5_RR_thigh_joint
+        - robot5_RR_calf_joint
+        - robot5_RL_hip_joint
+        - robot5_RL_thigh_joint
+        - robot5_RL_calf_joint
+
+robot6:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot6_FR_hip_joint
+        - robot6_FR_thigh_joint
+        - robot6_FR_calf_joint
+        - robot6_FL_hip_joint
+        - robot6_FL_thigh_joint
+        - robot6_FL_calf_joint
+        - robot6_RR_hip_joint
+        - robot6_RR_thigh_joint
+        - robot6_RR_calf_joint
+        - robot6_RL_hip_joint
+        - robot6_RL_thigh_joint
+        - robot6_RL_calf_joint
+
+robot7:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot7_FR_hip_joint
+        - robot7_FR_thigh_joint
+        - robot7_FR_calf_joint
+        - robot7_FL_hip_joint
+        - robot7_FL_thigh_joint
+        - robot7_FL_calf_joint
+        - robot7_RR_hip_joint
+        - robot7_RR_thigh_joint
+        - robot7_RR_calf_joint
+        - robot7_RL_hip_joint
+        - robot7_RL_thigh_joint
+        - robot7_RL_calf_joint
+
+robot8:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot8_FR_hip_joint
+        - robot8_FR_thigh_joint
+        - robot8_FR_calf_joint
+        - robot8_FL_hip_joint
+        - robot8_FL_thigh_joint
+        - robot8_FL_calf_joint
+        - robot8_RR_hip_joint
+        - robot8_RR_thigh_joint
+        - robot8_RR_calf_joint
+        - robot8_RL_hip_joint
+        - robot8_RL_thigh_joint
+        - robot8_RL_calf_joint
+
+robot9:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot9_FR_hip_joint
+        - robot9_FR_thigh_joint
+        - robot9_FR_calf_joint
+        - robot9_FL_hip_joint
+        - robot9_FL_thigh_joint
+        - robot9_FL_calf_joint
+        - robot9_RR_hip_joint
+        - robot9_RR_thigh_joint
+        - robot9_RR_calf_joint
+        - robot9_RL_hip_joint
+        - robot9_RL_thigh_joint
+        - robot9_RL_calf_joint
+
+robot10:
+  controller_manager:
+    ros__parameters:
+      update_rate: 100 #Hz
+
+      joint_state_broadcaster:
+        type: joint_state_broadcaster/JointStateBroadcaster
+
+      joint_group_controller:
+        type: position_controllers/JointGroupPositionController
+
+  joint_group_controller:
+    ros__parameters:
+      joints:
+        - robot10_FR_hip_joint
+        - robot10_FR_thigh_joint
+        - robot10_FR_calf_joint
+        - robot10_FL_hip_joint
+        - robot10_FL_thigh_joint
+        - robot10_FL_calf_joint
+        - robot10_RR_hip_joint
+        - robot10_RR_thigh_joint
+        - robot10_RR_calf_joint
+        - robot10_RL_hip_joint
+        - robot10_RL_thigh_joint
+        - robot10_RL_calf_joint
+
+# add new robots controllers
