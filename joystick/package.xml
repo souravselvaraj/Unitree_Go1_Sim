@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>joystick</name>
+  <version>0.0.1</version>
+  <description>Package for joystick control with ramping in ROS 2</description>
+
+  <maintainer email="kaisar.abutalipovv@gmail.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Export the package -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
